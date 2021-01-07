@@ -1,1 +1,3 @@
-function run (){console.log("hi");}
+function run() {
+    console.log('hi');
+}

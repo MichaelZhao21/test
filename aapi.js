@@ -1,5 +1,17 @@
 import config from '../files/config.json';
-import { Club, ClubInfo, ClubData, Event, EventInfo, EventData, Volunteering, EDGewfwe, GEwuiwfjwen, qfwijfe, wfwefwefew } from './entries';
+import {
+    Club,
+    ClubInfo,
+    ClubData,
+    Event,
+    EventInfo,
+    EventData,
+    Volunteering,
+    EDGewfwe,
+    GEwuiwfjwen,
+    qfwijfe,
+    wfwefwefew,
+} from './entries';
 
 /**
  * GET to /event?id=${id} - Gets event with given id

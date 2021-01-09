@@ -1,1 +1,1 @@
-function() { console.log('hi') }
+function talk() { console.log('hi') }

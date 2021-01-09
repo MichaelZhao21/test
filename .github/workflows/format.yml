@@ -2,7 +2,8 @@ name: 'Format with Prettier'
 
 on: 
   pull_request:
-    types: ['closed']
+    branches: [ master ]
+    types: [ closed ]
 
 jobs:
   format:

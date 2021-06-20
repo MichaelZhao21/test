@@ -10,15 +10,6 @@ async function getEvent(id) {
 }
 
 /**
- * GET to /event-list - Gets the list of all events
- * @returns {Promise<EventInfo[]>} An array of all events' basic information
- */
-async function getEventList() {
-    // TODO: Add a start and end time range
-    return await fetch(`${config.backend}/event-list`).then((res) => res.json());
-}
-
-/**
  * POST to /add - Creates an event
  * @param {Event} event Event object
  * @returns {Promise<number>} POST status [200 for Success & 400 for Failure]
